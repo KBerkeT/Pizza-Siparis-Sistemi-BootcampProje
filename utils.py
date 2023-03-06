@@ -69,7 +69,7 @@ def main():
 		file = open("Orders_Database.csv", "r")
 		file.close()
 	except:
-		column_name = ["Isim", "TC Kimlik", "Kredi Karti No", "Pizza Tanimi", "Zaman", "Kredi Karti Sifresi"]
+		column_name = ["Isim", "TC Kimlik", "Kredi Karti No", "Pizza Tanimi", "Ucret", "Zaman", "Kredi Karti Sifresi"]
 		write_csv(column_name)
 
 	print(menu)
@@ -152,5 +152,5 @@ def main():
 		an = datetime.datetime.now() # Zaman bilgisi alınıyor.
 		t = datetime.datetime.strftime(an, "%c") # gün adı-ay-gün-saat-yıl formatına getiriliyor.
   
-		information_list = [isim, tc, credit_card_no, pizza.get_description(), t, credit_card_pass]
+		information_list = [isim, tc, credit_card_no, description, cost, t, credit_card_pass]
 		write_csv(information_list) # csv dosyasına bilgiler yazdırılıyor.
