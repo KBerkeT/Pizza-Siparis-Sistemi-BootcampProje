@@ -1,0 +1,17 @@
+* Pizzalar:
+1: Margarita
+2: Karisik Pizza
+3: TurkPizza
+4: Kiymali Pizza
+5: Mantarli Pizza
+6: Sucuklu Pizza
+* Soslar:
+0: Sos istemiyorum
+1: Ketcap
+2: Mayonez
+3: BBQ
+4: Hardal
+5: Aci Sos
+6: Ranch Sos
+7: Baharat
+* Tesekkur ederiz!
